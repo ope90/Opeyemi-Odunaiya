@@ -7,6 +7,7 @@ function calculateBMI() {
  var bmi = w / (h / 100 * h / 100);
   
 
+
  console.log(h, w)
  document.getElementById("result").innerHTML = bmi
 
