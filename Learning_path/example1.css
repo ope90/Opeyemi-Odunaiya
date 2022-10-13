@@ -1,0 +1,110 @@
+body{
+ background-color:white;
+
+}
+
+.container{
+ text-align: center;
+
+}
+
+h1{
+ font-family:Arial, Helvetica, sans-seri;
+}
+
+.dot{
+ color:blue;
+}
+
+h2{
+ font-size: 35px;
+ color: grey;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.specialcolor{
+ color: black;
+}
+
+h5{
+ color: rgb(99, 97, 97);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+ border-radius: 20px;
+ height:40px;
+ width:325px;
+ padding:10px;
+ border: none;
+ box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+.btn{
+ border-radius: 20px;
+ background-color: rgb(94, 94, 226);
+ color: white;
+ width:175px;
+ height: 40px;
+ cursor: pointer;
+ font-family: Arial, Helvetica, sans-serif;
+ box-shadow:rgba(0, 0, 0, 0.09) 0px 2px 1px,
+  rgba(0, 0, 0, 0.09) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px,
+  rgba(0, 0, 0, 0.09) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border: none;
+  box-shadow: none;
+ 
+}
+
+.imges{
+margin-top: 40px;
+justify-content: center;
+height: 300px;
+}
+
+.social{
+ width:20px;
+ height:20px;
+}
+
+
+
+.copyright{
+ display: inline-flex;
+ margin-top:20px;
+}
+
+.right{
+ width: 20px;
+height:20px;
+margin-top:15px;
+margin-right:2px ;
+}
+
+
+.circular_image {
+ background-color: white;
+ border: 2px solid rgb(214, 214, 214);
+ display: flex;
+ padding: 10px;
+ align-self: center;
+ border-radius: 50%;
+ margin-top: 20px;
+ height: 20px;
+ font-weight: 20px;
+ 
+} 
+
+.circular_image img {
+ width: 100%;
+}
+
+.socail_con{
+ display: flex;
+ width: 150px;
+ justify-content: space-between;
+ margin: auto;
+}
