@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bmi.css" />
-    <title>BMI CALCULATOR</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="header">
-        <h1>(BMI) Calculator</h1>
-      </div>
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
 
-      <div class="measurements">
-        <div>
-        <p class="height">Height (cm)</p>
-        <input class="input-box" type="number" id="h" placeholder="Height"/>
-        </div>
+</head>
 
-        <div>
-        <p class="weight">Weight (kg)</p>
-        <input class="input-box"  type="number" id="w" placeholder="Weight"/>
-      </div>
+<body>
 
-      <div class="button">
-        <button class="btn-click" id="btn" onclick="calculateBmi()">Calculate</button>
-      </div>
-
-      <div class="result">
-        <p id="result"></p>
-        <p id="message"></p>
-      </div>
-    </div>
-    </div>
+    <h1>BMI Calculator</h1>
     
-    <script src="bmi.js"></script>
-  </body>
+
+
+ <p>Height (cm)</p>
+   <input type="number" id="h"> <br>
+  <br>
+     
+ <p>Weight (kg)</p>
+    <input type="number" id="w"> <br>
+ 
+    <br>
+      
+<button id="btn" onclick="calculateBMI()">Calculate</button>
+
+<p id="result"> </p>
+
+ <script src="bmi.js"></script>
+  
+</body>
 </html>
