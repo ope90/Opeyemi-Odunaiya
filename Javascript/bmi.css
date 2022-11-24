@@ -1,0 +1,64 @@
+body{
+ background-color: rgb(128, 125, 106);
+}
+
+.container{
+ padding: 30px;
+ background: #272639;
+ height: 425px;
+  width: 360px;
+  margin: 100px auto;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  
+ }
+ 
+
+.header{
+ color: white;
+}
+
+.input-box{
+ border-radius: 5px;
+ height: 20px;
+ border: none;
+ cursor: pointer;
+ padding-left: 10px;
+}
+
+.height{
+ margin: 0px;
+ color: white;
+ }
+
+.weight{
+ margin-bottom: 0px;
+ margin-top: 30px;
+ color: white
+}
+
+.button{
+ margin-top: 20px;
+}
+
+.btn-click{
+ border-radius: 50px;
+ height: 40px;
+ width: 90px;
+ border: none;
+ cursor: pointer;
+}
+
+.button :hover{
+ background-color: yellow;
+ color: red;
+}
+
+#result{
+ color: white;
+}
+
+#message{
+ color: white;
+}
+
